@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  height: 3rem;
+  background-color: #ee5b0d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.6rem;
+}
+
+.navbar img {
+  height: 2rem;
+}
+
+/* MUSIC ICONS CSS START*/
+.musicDiv {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+}
+.musicDiv img {
+  float: right;
+}
+/* MUSIC ICONS CSS END*/
+/* HEADER COINTAINER START */
+.H-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #003865;
+  color: white;
+  gap: 1rem;
+  padding: 2rem 0rem;
+  font-size: 1.1rem;
+}
+.H-container .ppp {
+  width: 18rem;
+}
+.h-text1 {
+  width: 15rem;
+  background-color: #d3f6cc;
+  border-radius: 50%;
+  padding: 1rem;
+  color: #4d4db8;
+}
+.H-img {
+  position: relative;
+  z-index: 5;
+}
+.saying {
+  position: absolute;
+  margin-left: 1.5rem;
+}
+.H-BGimg {
+  position: absolute;
+  top: 14rem;
+  margin: auto;
+  display: flex;
+}
+.H-btn {
+  background-color: #ee5b0d;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+/* HEADER COINTAINER END */
+
+/* SLIDER BOX CSS START */
+/* .sliderContainer {
+  background-color: #d3f6cc;
+  text-align: center;
+  border: 1px solid black;
+  height: fit-content;
+
+}
+.sliderBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 2rem;
+    height: fit-content;
+}
+.sliderBox img{
+    width: 4rem;
+} */
+
+.content {
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+  background-color: #d3f6cc;
+}
+.content .images {
+  height: 100%;
+}
+.images img {
+  height: 100%;
+  display: flex;
+  margin: auto;
+}
+
+/*Basic structure of slider*/
+.container {
+  width: 95%;
+  /* position: absolute;
+  transform: translate(-50%, -50%);
+  top: 108%;
+  left: 50%; */
+  overflow: hidden;
+  border: 10px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: -1px 5px 15px black;
+  border: 1px solid black;
+  background-color: #d3f6cc;
+  margin: 1rem auto;
+}
+
+/*Area of images*/
+.wrapper {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  animation: slide 10s infinite;
+}
+
+.wrapper img {
+  width: 33%;
+}
+/*Animation activated by keyframes*/
+/* @keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+} */
+/* 
+.relativee{
+    position: relative;
+    top: 6rem;
+} */
+/* SLIDER BOX CSS END */
+
+.timline {
+  height: 10rem;
+  background-color: white;
+  border: 1px SOLID black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* VENTURES CSS START */
+.ventures {
+  background: url(./images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 36rem;
+}
+.venturesBox {
+  padding-top: 6rem;
+}
+.venturesFlexBox {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.v-box1,
+.v-box2,
+.v-box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #003865;
+  width: 8rem;
+  gap: 2rem;
+  padding-bottom: 0.8rem;
+  text-align: center;
+}
+.v-box1 .propellingText,
+.v-box2 .propellingText,
+.v-box3 .propellingText {
+  font-size: 10px;
+  background-color: white;
+  padding: 0.5rem;
+  width: 8rem;
+}
+.v-box3 {
+  margin: auto;
+}
+/* VENTURES CSS END */
