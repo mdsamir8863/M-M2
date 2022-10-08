@@ -117,16 +117,76 @@ nav {
   width: 33%;
 }
 
-/* SLIDER BOX CSS END */
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
-.timline {
-  height: 10rem;
-  background-color: white;
-  border: 1px SOLID black;
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  height: auto;
+  overflow: hidden;
+  color: #4d4db8;
+}
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+  padding: 3px 3px;
+  display: flex;
+  justify-content: flex-start;
+}
+.slider-container {
+  display: flex;
+  height: 100%;
+  width: 400%;
+  flex-shrink: 0;
+  align-content: space-between;
+  transition: all 0.5s;
+}
+.slider:nth-child(1),
+.slider:nth-child(2),
+.slider:nth-child(3) {
+  border-right: 2px solid #4b4b4d;
+}
+
+.slide {
+  flex-basis: 25%;
+  flex-shrink: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3px;
 }
+
+.slider-content__holder {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+
+.slider-content__holder .content-holder__title {
+  font-size: 14px;
+}
+
+.slider-content__holder .content-holder__score {
+  font-size: 22px;
+  text-align: right;
+}
+
+.slider-content__holder .content-holder__percentage {
+  font-size: 14px;
+  text-align: right;
+}
+
+.slider-content__holder .content-holder__percentage span {
+  font-size: 10px;
+}
+
+/* SLIDER BOX CSS END */
+
+
 /* VENTURES CSS START */
 .ventures {
   background: url(./images/bg.png);
