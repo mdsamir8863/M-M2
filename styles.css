@@ -114,7 +114,10 @@ nav {
 }
 
 .wrapper img {
-  width: 33%;
+  width: 8rem;
+  height: 9rem;
+  margin: auto;
+  border: 1px solid black;
 }
 
 * {
@@ -186,7 +189,6 @@ nav {
 
 /* SLIDER BOX CSS END */
 
-
 /* VENTURES CSS START */
 .ventures {
   background: url(./images/bg.png);
@@ -194,15 +196,18 @@ nav {
   background-repeat: no-repeat;
   width: 100%;
   height: 32rem;
+  margin: auto;
 }
 .venturesBox {
   padding-top: 3rem;
+  margin: auto;
 }
 .venturesGridBox {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 1rem;
   row-gap: 1rem;
+  margin: auto;
 }
 .v-box1,
 .v-box2,
