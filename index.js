@@ -1,3 +1,27 @@
+const navBar = document.getElementById("menu");
+const openNav = document.getElementById("openNav");
+showNav = () => {
+  // if ((openNav.style.display = "none")) {
+  //   openNav.style.display = "block";
+  // } else if ((openNav.style.display = "block")) {
+  //   openNav.style.display = "none";
+  // } else {
+  //   openNav.style.display = "none";
+  // }
+  // openNav.style.display = "none"
+  //   ? (openNav.style.display = "block")
+  //   : (openNav.style.display = "none");
+};
+// menu.addEventListener("click", showNav);
+
+menu.addEventListener("click", () => {
+  if (openNav.style.display === "none") {
+    openNav.style.display = "block";
+  } else {
+    openNav.style.display = "none";
+  }
+});
+
 // SLIDER START
 
 // var indexValue = 0;

@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 nav {
   height: 3rem;
   background-color: #ee5b0d;
@@ -17,6 +18,111 @@ nav {
 
 .navbar img {
   height: 2rem;
+}
+
+.shoNav {
+  position: absolute;
+  z-index: 11;
+  background-color: #f2f2f2;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #d3f6cc;
+  /* -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; */
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  height: 100vh;
+  width: 11rem;
+}
+.shoNav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  justify-content: start;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.shoNav ul li {
+  list-style: none;
+  background-color: #003865;
+  border-radius: 1rem;
+  width: 6rem;
+  padding: 0.3rem 0;
+  color: wheat;
+}
+.shoNav ul > li:nth-child(1) {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.shoNav ul > li:nth-child(2) {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  animation-delay: 0.1s;
+}
+.shoNav ul > li:nth-child(3) {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-delay: 0.2s;
+}
+.shoNav ul > li:nth-child(4) {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-delay: 0.3s;
+}
+.shoNav ul > li:nth-child(5) {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}
+.shoNav ul > li:nth-child(6) {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-delay: 0.6s;
+}
+.shoNav ul li:hover {
+  background-color: #ee5b0d;
+  color: #ffffff;
+  transition: 0.1s ease-in-out;
+}
+#openNav {
+  display: none;
 }
 
 /* MUSIC ICONS CSS START*/
@@ -44,6 +150,7 @@ nav {
   gap: 1rem;
   padding: 2rem 0rem;
   font-size: 1.1rem;
+ 
 }
 .H-container .ppp {
   width: 18rem;
@@ -68,6 +175,8 @@ nav {
   top: 14rem;
   margin: auto;
   display: flex;
+ 
+  
 }
 .H-btn {
   background-color: #ee5b0d;
@@ -280,3 +389,48 @@ footer {
   width: 7rem;
 }
 /* FOOTER CSS END */
+@-webkit-keyframes slideInDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes slideInDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
