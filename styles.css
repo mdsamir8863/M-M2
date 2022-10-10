@@ -22,6 +22,7 @@ nav {
 
 .shoNav {
   position: absolute;
+  transform: translate(-50%, -50%);
   z-index: 11;
   background-color: #f2f2f2;
   width: 100%;
@@ -40,8 +41,7 @@ nav {
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  height: 100vh;
-  width: 11rem;
+  height: 100%;
 }
 .shoNav ul {
   display: flex;
@@ -150,7 +150,6 @@ nav {
   gap: 1rem;
   padding: 2rem 0rem;
   font-size: 1.1rem;
- 
 }
 .H-container .ppp {
   width: 18rem;
@@ -175,8 +174,6 @@ nav {
   top: 14rem;
   margin: auto;
   display: flex;
- 
-  
 }
 .H-btn {
   background-color: #ee5b0d;
