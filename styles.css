@@ -62,7 +62,7 @@ nav {
   padding: 0.3rem 0;
   color: wheat;
 }
-.shoNav ul > li:nth-child(1) {
+.shoNav ul > a:nth-child(1) {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
   -webkit-animation-duration: 1s;
@@ -70,7 +70,7 @@ nav {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.shoNav ul > li:nth-child(2) {
+.shoNav ul > a:nth-child(2) {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
   -webkit-animation-duration: 1s;
@@ -80,7 +80,7 @@ nav {
   animation-delay: 1s;
   animation-delay: 0.1s;
 }
-.shoNav ul > li:nth-child(3) {
+.shoNav ul > a:nth-child(3) {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
   -webkit-animation-duration: 1s;
@@ -89,7 +89,10 @@ nav {
   animation-fill-mode: both;
   animation-delay: 0.2s;
 }
-.shoNav ul > li:nth-child(4) {
+a{
+  text-decoration: none;
+}
+.shoNav ul > a:nth-child(4) {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
   -webkit-animation-duration: 1s;
@@ -98,7 +101,7 @@ nav {
   animation-fill-mode: both;
   animation-delay: 0.3s;
 }
-.shoNav ul > li:nth-child(5) {
+.shoNav ul > a:nth-child(5) {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
   -webkit-animation-duration: 1s;
@@ -107,7 +110,7 @@ nav {
   animation-fill-mode: both;
   animation-delay: 0.5s;
 }
-.shoNav ul > li:nth-child(6) {
+.shoNav ul > a:nth-child(6) {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
   -webkit-animation-duration: 1s;
